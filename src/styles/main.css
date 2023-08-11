@@ -3,7 +3,7 @@
   font-family: "U8-Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("U8-Bold"), url("/src/assets/fonts/U8-Bold.otf") format("opentype");
+  src: local("U8-Bold"), url("./assets/fonts/U8-Bold.otf") format("opentype");
 }
 
 /* Header Section */
