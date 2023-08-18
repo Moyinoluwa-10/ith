@@ -10,6 +10,9 @@ module.exports = {
     fontFamily: {
       u8: ["U8-Bold", "sans-serif"],
     },
+    container: {
+      center: true,
+    },
     extend: {},
   },
   plugins: [],

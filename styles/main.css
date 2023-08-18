@@ -62,3 +62,75 @@
     opacity: 1;
   }
 }
+
+/* Hamburger */
+.hamburger-bar-1.translate {
+  transform: translateY(0px) !important;
+  transition: 0.3s ease;
+}
+
+.hamburger-bar-2.translate {
+  transform: translateY(0px) !important;
+  transition: 0.3s ease;
+}
+
+.hamburger-bar-1.reduce {
+  width: 0%;
+  transition: 0.3s ease;
+  align-self: flex-start;
+}
+.hamburger-bar-2.reduce {
+  width: 0%;
+  transition: 0.3s ease;
+  align-self: flex-end;
+}
+
+.hamburger-bar-1.raise {
+  transform: translateY(-14px) translateX(14px) rotate(-48deg);
+  transition: 0s;
+  width: 0;
+}
+
+.hamburger-bar-2.raise {
+  transform: translateY(-14px) translateX(-14px) rotate(48deg);
+  transition: 0s;
+  width: 0;
+}
+
+.hamburger-bar-1.rotate {
+  transform: translateY(4px) rotate(0deg);
+  width: 70%;
+}
+
+.hamburger-bar-2.rotate {
+  transform: translateY(-4px) rotate(0deg);
+  width: 70%;
+}
+
+.hamburger-bar-1.draw-bar {
+  transform: translateY(4px) rotate(-48deg);
+  width: 70%;
+  transition: 0.4s ease;
+  transition-delay: 0.15s;
+  align-self: initial;
+}
+
+.hamburger-bar-2.draw-bar {
+  transform: translateY(-4px) rotate(48deg);
+  transition: 0.4s ease;
+  width: 70%;
+  align-self: initial;
+}
+
+.mobile-nav.active {
+  left: 0;
+}
+
+/* Transitions */
+.transition-normal {
+  transition: all 0.3s ease;
+}
+
+.transition-slow {
+  transition: all 0.5s ease-in-out;
+}
