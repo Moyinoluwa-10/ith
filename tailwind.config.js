@@ -13,7 +13,13 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#cf95fe",
+        secondary: "#4400fe",
+        tertiary: "#1d123c",
+      },
+    },
   },
   plugins: [],
 };

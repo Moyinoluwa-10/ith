@@ -14,7 +14,7 @@
     <header
       class="px-7 w-full fixed top-0 left-0 z-50 header text-[13px] leading-[13px]"
     >
-      <div class="container mx-auto flex justify-between items-center gap-5">
+      <div class="container flex justify-between items-center gap-5">
         <div class="w-[150px]">
           <a href="/">
             <img src="/assets/images/logo.png" alt="logo" class="w-full" />
@@ -108,7 +108,7 @@
         class="hero min-h-screen relative px-5 overflow-hidden bg-[#252121]"
       >
         <div
-          class="h-screen container mx-auto flex flex-col-reverse sm:flex-row gap-10 gap-y-20 justify-between pb-10 pt-36 items-start sm:items-end"
+          class="h-screen container flex flex-col-reverse sm:flex-row gap-10 gap-y-20 justify-between pb-10 pt-36 items-start sm:items-end"
         >
           <a href="#whatweare">
             <img
@@ -134,7 +134,7 @@
       </section>
 
       <section class="bg-gray-600 p-5 py-28 text-white">
-        <p class="text-4xl container mx-auto">
+        <p class="text-4xl container">
           ITH is a place where talented individuals come together to showcase
           their skills and collaborate on creative projects. It's a great
           platform for networking and finding opportunities to grow your talent.
@@ -147,19 +147,43 @@
           nurturing talent in a fun and inclusive environment.
         </p>
       </section>
-
-      <section class="p-5">
-        <p class="text-center">About Us</p>
-        <div class="flex"></div>
-      </section>
-
-      <section class="p-5">
-        <p>What We Do</p>
-        <p></p>
-      </section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-tertiary text-white p-5">
+      <div class="container my-10 pr-28">
+        <div class="flex justify-between mb-10">
+          <div class="w-[150px]">
+            <a href="/">
+              <img src="/assets/images/logo.png" alt="logo" class="w-full" />
+            </a>
+          </div>
+          <div>
+            <ul class="list-none flex flex-col gap-3">
+              <li>Company</li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Programs</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="list-none flex flex-col gap-3">
+              <ol>
+                <li>Address</li>
+                <li>Bodija, Ibadan, Nigeria.</li>
+              </ol>
+              <ol>
+                <li>Contact</li>
+                <li><a href="#">ithproject@gmail.com</a></li>
+                <li><a href="#">+234 800 2232 222</a></li>
+              </ol>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center">
+          &copy; 2023 Ibadan Talent House. All rights reserved.
+        </p>
+      </div>
+    </footer>
 
     <script src="./scripts/base.js"></script>
   </body>
