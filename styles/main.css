@@ -134,3 +134,17 @@
 .transition-slow {
   transition: all 0.5s ease-in-out;
 }
+
+.overlay.show {
+  pointer-events: auto;
+  transform: translateX(0%);
+}
+
+.overlay.show .overlay-box {
+  pointer-events: auto;
+  transform: scale(1);
+}
+
+.overlay .overlay-box {
+  transform: scale(0);
+}
