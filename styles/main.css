@@ -3,7 +3,11 @@
   font-family: "U8-Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("U8-Bold"), url("../assets/fonts/U8-Bold.otf") format("opentype");
+  /* src: url("../assets/fonts/Aero\ Matics\ Display\ Regular_0.ttf")
+    format("truetype"); */
+  /* src: url("../assets/fonts/BigNoodleTooKorean.ttf") format("truetype"); */
+  /* src: url("../assets/fonts/Escopedia\ Bold.otf") format("opentype"); */
+  src: url("../assets/fonts/PlacardNextBold.TTF") format("truetype");
 }
 
 @font-face {
@@ -12,6 +16,10 @@
   font-weight: normal;
   src: local("General Sans"),
     url("../assets/fonts/GeneralSans-Regular.otf") format("opentype");
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 /* Header Section */
@@ -43,6 +51,12 @@
 .header.active a.partner:hover {
   color: #000;
   border: 1px solid #000;
+}
+
+.hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/assets/images/image\ 1.png") no-repeat center center;
+  background-size: cover;
 }
 
 .hero-text-1 {
