@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     fontFamily: {
       u8: ["U8-Bold", "sans-serif"],
+      general: ["General Sans", "sans-serif"],
     },
     container: {
       center: true,
