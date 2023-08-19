@@ -10,6 +10,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="font-general">
     <header
@@ -152,35 +159,66 @@
 
     <footer class="bg-tertiary text-white p-5">
       <div class="container my-10 pr-28">
-        <div class="flex justify-between mb-10">
-          <div class="w-[150px]">
-            <a href="/">
-              <img src="/assets/images/logo.png" alt="logo" class="w-full" />
-            </a>
-          </div>
+        <div
+          class="flex gap-10 justify-between mb-14 flex-wrap flex-col sm:flex-row"
+        >
           <div>
+            <div class="w-[150px]">
+              <a href="/">
+                <img src="/assets/images/logo.png" alt="logo" class="w-full" />
+              </a>
+            </div>
+            <p class="ml-4 mb-3">Providing resources to people</p>
+            <div class="flex gap-3 ml-4">
+              <i class="fa-brands text-xl fa-x-twitter"></i>
+              <i class="fa-brands text-xl fa-instagram"></i>
+              <i class="fa-brands text-xl fa-linkedin"></i>
+              <i class="fa-brands text-xl fa-youtube"></i>
+            </div>
+          </div>
+          <div class="ml-4 sm:ml-0">
             <ul class="list-none flex flex-col gap-3">
-              <li>Company</li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Programs</a></li>
-              <li><a href="#">FAQs</a></li>
+              <li class="text-xl font-medium mb-1">Company</li>
+              <li>
+                <a href="#" class="hover:underline transition-normal"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:underline transition-normal"
+                  >What we do</a
+                >
+              </li>
+              <li>
+                <a href="/faqs" class="hover:underline transition-normal"
+                  >FAQs</a
+                >
+              </li>
             </ul>
           </div>
-          <div>
-            <ul class="list-none flex flex-col gap-3">
+          <div class="ml-4 sm:ml-0">
+            <ul class="list-none flex flex-col gap-5">
               <ol>
-                <li>Address</li>
+                <li class="text-xl font-medium mb-3">Address</li>
                 <li>Bodija, Ibadan, Nigeria.</li>
               </ol>
               <ol>
-                <li>Contact</li>
-                <li><a href="#">ithproject@gmail.com</a></li>
-                <li><a href="#">+234 800 2232 222</a></li>
+                <li class="text-xl font-medium mb-3">Contact</li>
+                <li class="mb-3">
+                  <a href="#" class="hover:underline transition-normal"
+                    >ithproject@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline transition-normal"
+                    >+234 800 2232 222</a
+                  >
+                </li>
               </ol>
             </ul>
           </div>
         </div>
-        <p class="text-center">
+        <p class="sm:text-center ml-4 sm:ml-0">
           &copy; 2023 Ibadan Talent House. All rights reserved.
         </p>
       </div>
