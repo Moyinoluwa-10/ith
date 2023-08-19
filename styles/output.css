@@ -904,6 +904,10 @@ video {
   row-gap: 5rem;
 }
 
+.gap-y-24 {
+  row-gap: 6rem;
+}
+
 .overflow-auto {
   overflow: auto;
 }
